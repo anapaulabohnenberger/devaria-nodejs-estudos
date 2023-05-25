@@ -4,9 +4,9 @@ const readLine = require('readline').createInterface({
 });
 
 console.log('Esse programa vai checar se voce e maior de 18 anos e tem habilitacao para saber se pode entrar no kart');
-console.log('Alem da suas verificacoes, precisamos verificar se voce esta na lista de presenca do horario');
+console.log('Alem das suas verificacoes, precisamos conferir se voce esta na lista de presenca do horario');
 
-readLine.question('Qual o ano do deus nascimento?', ano => {
+readLine.question('Qual o ano do seu nascimento?', ano => {
     if(ano > 2004){
         console.log('Voce nao tem 18 anos');
     }else{
